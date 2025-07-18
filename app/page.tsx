@@ -1,7 +1,7 @@
 'use client'
 
+import { Projeto } from "@/components/ProjetoCard";
 import { useState } from 'react'
-import Image from 'next/image'
 import ProjetoCard from '@/components/ProjetoCard'
 import ThemeSwitcher from '@/components/ThemeSwitcher'
 

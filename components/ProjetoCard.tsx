@@ -1,14 +1,13 @@
 'use client'
 
+
 import Image from 'next/image'
 
-type Projeto = {
-  titulo: string
-  descricao: string
-  imagem: string
-  tags: string[]   // já é um array, não precisa de split
-  repo: string
-  projeto: string
+export type Projeto = {
+  titulo: string;
+  imagem: string;
+  tags: string[];
+  repo: string;
 }
 
 export default function ProjetoCard({ projeto }: { projeto: Projeto }) {
